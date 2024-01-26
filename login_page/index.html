@@ -1,1 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form web</title>
+    <link rel="stylesheet" href="tab.css">
+    <style>
+        h1{
+            color: black !important;
+        }
+    </style>
+</head>
+<body >
+    <header>
+    <h1 style="color: aqua;">WEB DEV</h1>
+    </header>
+<form >
+    <fieldset>
+        <legend>Lodin Page...</legend>
+        <fieldset>
+            <label for="Email">Enter Username </label>
+            <input title="email" type="text" id="Email" placeholder="Phone no. or Email" required> <br/><br/>
+            <label for="password">Enter password</label>
+            <input type="password" id="password" required> 
+        </fieldset>
+        
+        <label for="datep">choose data :</label>
+        <input type="date" name="noname" id="datep" required>
+        <select name="select" value="select"  id="">
+            <option value="A" placeholder="choose" >IIT</option>
+            <option value="B">NEET</option>
+        </select>      
+    <label><input name="tos" type="checkbox" required  /> - Do you agree with Terms and conditions?</label>
+    <br>
+    <h3>select gender</h3>
+    <label for="male">
+        <input type="radio" name="gender" id="male">male
+    </label>
+    <label for="female">
+        <input type="radio" name="gender" id="female">female
+    </label>
+    <br>
+    <h3>select subjects</h3>
+    <p>choose</p>
+    <label for="1">DSA
+        <input type="checkbox" name="1" id="1">
+    </label>
+    <label for="2">Cloud
+        <input type="checkbox" name="2" id="2">
+    </label>
+    <label for="3">AI/ML
+        <input type="checkbox" name="4" id="3">
+    </label>
+    <label for="4">Math
+        <input type="checkbox" name="4" id="4">
+    </label>
 
+    <br>
+    <br>
+    <label for="comment"placeholder="comment here!">Feedback</label>
+    <textarea name="comments" id="comment" cols="10" rows="5" ></textarea>
+        <input type="submit" value="Go" />
+    </fieldset>  
+</form>
+</body>
+</html>
